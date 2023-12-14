@@ -20,8 +20,6 @@ def insert_person(filename, person):
 
 def print_file(filename):
     with open(filename, 'r', encoding='utf-8') as f_obj:
-#        for line in f_obj:
-#            print(line)
         content = f_obj.read()
         print(content)
 
